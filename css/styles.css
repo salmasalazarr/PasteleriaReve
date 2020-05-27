@@ -1,0 +1,307 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*Estilo Menu*/
+html,body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5em;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+h2,h3 {
+  padding-bottom: 20px;
+
+}
+ul {
+  list-style: none;
+}
+h1{
+  font-style: italic;
+  padding-bottom: 20px;
+  font-family: Geneva;
+  font-size: 30px;
+}
+p {
+  margin: 30px 0;
+}
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+/*FIME de juntos por fime*/
+.text-primary {
+  color:#60d8d6;
+}
+.text-primary1 {
+  color:#000;
+}
+/*Juntosxfime...*/
+.lead {
+  font-size: 60px;
+  font-family: Geneva;
+  font-style: italic;
+color: #fff;
+}
+/* Acerca de fime*/
+.btn {
+  display: inline-block;
+  font-size: 20px;
+  color: #fff;
+  background: #fac2ce;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #60d8d6;
+}
+
+}
+.btn-light {
+  background: #f4f4f4;
+  color: #000;
+}
+
+.bg-dark {
+  background: #a984f1;
+  color: #fff;
+}
+
+.bg-light {
+  background: #f4f4f4;
+  color: #000;
+}
+
+.bg-primary {
+  background: #60d8d6;
+  color: #000;
+  font-size: 15px;
+}
+.clr {
+  clear: both;
+}
+
+.l-heading {
+  font-size: 40px;
+  color: #123;
+  padding-top: 40px;
+}
+.l-heading1 {
+  font-size: 40px;
+  text-align: center;
+  color: #dfe32a;
+}
+
+/* Padding */
+
+.py-1 { padding: 10px 0; }
+.py-2 { padding: 30px 0; }
+.py-3 { padding: 90px 0; }
+
+/*Navbar*/
+#navbar {
+
+  /*color: #fff;*/
+
+  position: fixed;
+  padding: 0 30px;
+
+}
+#navbar a {
+  color:  #FFF;
+}
+#navbar h1 {
+  float: left;
+  padding-top: 25px;
+  padding-right: 348px;
+  padding-left: 100px;
+  font-family:  Geneva;
+}
+#navbar ul {
+  list-style: none;
+  float: left;
+}
+#navbar ul li {
+  float: left;
+
+}
+#navbar ul li a {
+  display: block;
+  padding: 25px;
+  text-align: center;
+font-family: lucida sans;
+}
+#navbar ul li a:hover,
+#navbar ul li a.current {
+  border-color: #000;
+  color: #000;
+}
+#welcome {
+  background: url('../imagenes/cover2.png') no-repeat center center/cover;
+  height: 600px;
+}
+#welcome1 {
+  width: 100%;
+  height: 400px;
+}
+#welcome .welcome-content {
+  color: #fff;
+  text-align: justify;
+  padding-top: 100px;
+}
+
+#welcome1 .welcome-content1 {
+  color: #Faa;
+  text-align: justify;
+  padding-top: 30px;
+}
+
+#welcome .welcome-content h1 {
+  font-size: 60px;
+  line-height: 1.2em;
+}
+
+#welcome .welcome-content p {
+  padding-bottom: 20px;
+  line-height: 1.7em;
+}
+
+#welcome .container {
+  overflow: hidden !important;
+}
+#home-info{
+  height: 350px;
+}
+#home-info .info-img {
+  float: center;
+  width: 10px;
+  height: 10px;
+  min-height: 0%;
+}
+#home-info .info-content{
+  float: right;
+  width: 50%;
+  height: 85%;
+  text-align: center;
+  padding: 40px 30px;
+  overflow: hidden;
+}
+#home-info .info-content1 {
+  float: left;
+  width: 50%;
+  height: 85%;
+  text-align: center;
+  padding: 40px 30px;
+  overflow: hidden;
+}
+
+#home-info .info-content p {
+  padding-bottom: 30px;
+}
+
+/*Información secundaria*/
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  height: 350px;
+  text-align: center;
+}
+
+.box i {
+  margin-bottom: 10px;
+}
+
+/* Acerca de */
+#about-info {
+  background: url('../imagenes/3.png') no-repeat center center/cover;
+  height: 600px;
+}
+#about-info .info-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+
+#about-info .info-right img {
+  display: block;
+  margin: auto;
+  width: 70%;
+  border-radius: 50%;
+}
+#about-info p {
+  text-align: justify;
+}
+#about-info .info-left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+
+/* Testimonos */
+#testimonials {
+  height: 1100px;
+  background:#e8ddd8;
+  padding-top: 70px;
+}
+
+#testimonials .testimonial {
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  opacity: 0.9;
+}
+
+#testimonials .testimonial img {
+  width: 100px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+/* Forma de Contacto */
+#contact-form {
+  background: url('../imagenes/contact.png') no-repeat center center/cover;
+  height: 690px;
+}
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+
+#contact-form textarea {
+  height: 200px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: none;
+  border-color: #5BBF21;
+}
+
+/* Pie de página */
+
+#main-footer {
+  text-align: center;
+  background: #edabb9;
+  color: #fff;
+  padding: 20px;
+}
